@@ -1,4 +1,4 @@
-0 - //ul[@class="vl-flyout-nav__container"] /li /a
+0 - //ul[@class="vl-flyout-nav__container"]/li /a
 
 1 - //div[@class="x-refine__item__title-container"]
 1 - //li[@class="x-refine__main__list"]
@@ -7,14 +7,9 @@
 2 - //div[@class="x-refine__item__title-container"][contains(text(), "Color")]
 
 3 - //input[@type="checkbox"][@aria-label="adidas"]
-3 - //li[h3/div[@class="x-refine__item__title-container"][contains(text(), "Brand")]]/div/ul/li/div/a/div/span/input[@type="checkbox"][@aria-label="adidas"]
+3 - //li[h3/div[@class="x-refine__item__title-container"][contains(text(), "Brand")]]//input[@type="checkbox"][@aria-label="adidas"]
 3 - //li[h3[contains(., "Brand")]]//input[@aria-label="adidas"]
 
 4 - //div[@class="s-item__title"][translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')]
 
 5 - //div[@class="gh-submenu gh-eb-o"]/ul/li/a
-
-Advance
-
-5 - //li[@class="s-item s-item__pl-on-bottom"]//span[@class="s-item__shipping s-item__logisticsCost" and contains(text(), "Free shipping")][translate(., 'abcdefghijklmnopqrstuvwxyz', 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')]
-
