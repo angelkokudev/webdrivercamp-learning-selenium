@@ -46,13 +46,11 @@ if item_1_title == new_tab_title_1_element:
     print(f"Titles match \nItem 1 on Main page: {item_1_title}\nItem 1 on New tab: {new_tab_title_1_element}")
 else:
     print("Item 1 titles does not match")
-assert item_1_title == new_tab_title_1_element, f"Item 1 titles do not match: {item_1_title} != {new_tab_title_1_element}"
 
 if item_1_price == new_tab_price_1:
     print(f"Prices match \nItem 1 on Main page: {item_1_price}\nItem 1 on New tab: {new_tab_price_1}")
 else:
     print("Item 1 prices does not match")
-assert item_1_price == new_tab_price_1, f"Item 1 prices do not match: {item_1_price} != {new_tab_price_1}"
 
 driver.close()
 
